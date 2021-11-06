@@ -32,7 +32,7 @@ const fetch = require('node-fetch')
       console.log(userId);
       console.log(text);
       return   fetch(
-		`https://graph.facebook.com/v2.6/me/messages?access_token=EAADZB19riRPkBAICWooimcS4mZAuAvzdAoEAazWmrz3kqp7IkJZCKZCgEJOPwrsmP54ZBYgKUqN7RGB7qRb4zYo4uwoHVcmeZBPQjjmuSa0CR7MYqUZCRuyJkcpEZBmGVqhr56r4hCur60mtoZB6zNxf5jh67LZCNSZAQmBLq8gvq0yeP7KjGU0o59b`,
+		`https://graph.facebook.com/v2.6/me/messages?access_token=EAADZB19riRPkBAFsB2PvcQtkZBFQR5x2KLAk0qdXHkLQ9pqAhLBqUIRTBdCzXyKMcFpZBKOtDPWRCHMEyuOJFw3lmMkv4wljYzGvjz1kAXaU2nh6eptCpyc8SqeeFGhOGlM8zZAEcQE1NyKM04nXtGXQECHnfFq6hjsAqCMKHdDgwyjle65t`,
         {
           headers: {
             'Content-Type': 'application/json',
